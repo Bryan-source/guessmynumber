@@ -10,6 +10,7 @@
     background-color: #2E4053;
     border-radius: 8px;
     color: #F4D03F;
+    text-align: center;
     width: 120px;
     height: 120px;
     font-size: 90px;
@@ -51,12 +52,14 @@
     -webkit-animation-iteration-count: 3;
   }
   
+  /* La propiedad CSS -moz- utiliza en Gecko (Firefox)  */
   @-moz-keyframes flicker{  
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
   }
   
+  /* sólo está disponible en navegadores basados en  WebKit como safari */
   @-webkit-keyframes flicker {  
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
